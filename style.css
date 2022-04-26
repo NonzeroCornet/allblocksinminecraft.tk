@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+canvas {
+  width: 100%;
+}
+
+#scrollCounter {
+  position: fixed;
+  z-index: 1;
+  right: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 2.5px;
+}
+div {
+  margin-left: 15%;
+}
+
+@media only screen and (min-width: 768px) {
+  div {
+    margin-top: -55px;
+    float: right;
+  }
+}
